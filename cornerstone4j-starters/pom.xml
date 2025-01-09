@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.cornerstone4j</groupId>
         <artifactId>cornerstone4j-bom</artifactId>
-        <version>1.0.0.RELEASE</version>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../cornerstone4j-bom/pom.xml</relativePath>
     </parent>
 

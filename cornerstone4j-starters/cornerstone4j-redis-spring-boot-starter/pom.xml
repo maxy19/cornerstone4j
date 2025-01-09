@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.cornerstone4j</groupId>
         <artifactId>cornerstone4j-starters</artifactId>
-        <version>1.0.0.RELEASE</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>cornerstone4j-redis-spring-boot-starter</artifactId>

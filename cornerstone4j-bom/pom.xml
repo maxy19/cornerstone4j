@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.cornerstone4j</groupId>
         <artifactId>cornerstone4j</artifactId>
-        <version>1.0.0.RELEASE</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
     <artifactId>cornerstone4j-bom</artifactId>
     <packaging>pom</packaging>
@@ -47,17 +47,12 @@
         <cola-component-statemachine.version>4.3.2</cola-component-statemachine.version>
         <netty-all.version>4.1.50.Final</netty-all.version>
         <!-- 一方包 -->
-        <cornerstone4j-core.version>1.0.0.RELEASE</cornerstone4j-core.version>
+        <cornerstone4j-core.version>1.0.0-SNAPSHOT</cornerstone4j-core.version>
         <cornerstone4j-booting.version>1.0.0-SNAPSHOT</cornerstone4j-booting.version>
         <cornerstone4j-aop.version>1.0.0-SNAPSHOT</cornerstone4j-aop.version>
-        <cornerstone4j-alarm.version>1.0.0-SNAPSHOT</cornerstone4j-alarm.version>
-        <cornerstone4j-dubbo.version>1.0.0-SNAPSHOT</cornerstone4j-dubbo.version>
-        <cornerstone4j-i18n.version>1.0.0-SNAPSHOT</cornerstone4j-i18n.version>
         <cornerstone4j-mybatis-flex.version>1.0.0-SNAPSHOT</cornerstone4j-mybatis-flex.version>
         <cornerstone4j-redis.version>1.0.0-SNAPSHOT</cornerstone4j-redis.version>
         <cornerstone4j-web.version>1.0.0-SNAPSHOT</cornerstone4j-web.version>
-        <cornerstone4j-rocketmq.version>1.0.0-SNAPSHOT</cornerstone4j-rocketmq.version>
-        <cornerstone4j-easyexcel.version>1.0.0-SNAPSHOT</cornerstone4j-easyexcel.version>
     </properties>
 
     <dependencyManagement>
@@ -75,16 +70,6 @@
             </dependency>
             <dependency>
                 <groupId>com.cornerstone4j</groupId>
-                <artifactId>cornerstone4j-alarm-spring-boot-starter</artifactId>
-                <version>${cornerstone4j-alarm.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.cornerstone4j</groupId>
-                <artifactId>cornerstone4j-i18n-spring-boot-starter</artifactId>
-                <version>${cornerstone4j-i18n.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.cornerstone4j</groupId>
                 <artifactId>cornerstone4j-mybatis-flex-spring-boot-starter</artifactId>
                 <version>${cornerstone4j-mybatis-flex.version}</version>
             </dependency>
@@ -97,26 +82,6 @@
                 <groupId>com.cornerstone4j</groupId>
                 <artifactId>cornerstone4j-redis-spring-boot-starter</artifactId>
                 <version>${cornerstone4j-redis.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.cornerstone4j</groupId>
-                <artifactId>cornerstone4j-dubbo-spring-boot-starter</artifactId>
-                <version>${cornerstone4j-dubbo.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.cornerstone4j</groupId>
-                <artifactId>cornerstone4j-rocketmq-spring-boot-starter</artifactId>
-                <version>${cornerstone4j-rocketmq.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.cornerstone4j</groupId>
-                <artifactId>cornerstone4j-easyexcel-spring-boot-starter</artifactId>
-                <version>${cornerstone4j-easyexcel.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.cornerstone4j</groupId>
-                <artifactId>cornerstone4j-sa-token-spring-boot-starter</artifactId>
-                <version>${cornerstone4j-easyexcel.version}</version>
             </dependency>
             <!-- Spring Boot POM -->
             <dependency>
