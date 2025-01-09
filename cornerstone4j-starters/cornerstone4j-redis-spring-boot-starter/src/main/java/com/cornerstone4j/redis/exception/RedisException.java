@@ -1,4 +1,4 @@
-package com.datamesh.multiverse.redis.exception;
+package com.cornerstone4j.redis.exception;
 
 
 import com.cornerstone4j.core.exception.ErrorCode;

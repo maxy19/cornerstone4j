@@ -3,7 +3,7 @@ package com.cornerstone4j.redis;
 
 import cn.hutool.core.util.ObjectUtil;
 import com.cornerstone4j.core.utils.LogMsgUtils;
-import com.datamesh.multiverse.redis.exception.RedisException;
+import com.cornerstone4j.redis.exception.RedisException;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
